@@ -1,1 +1,8 @@
+bugs report 
 
+1. include          --> Include 
+2. stdio            --> studio 
+3. < >              --> " "          - not bug
+4. scanf or printf ( 'hello, world!") 
+5. scanf address 
+6. missing of header file ( ex. string.h, math.h )
