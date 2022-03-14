@@ -1,0 +1,29 @@
+// 
+#include <stdio.h>
+
+int main() {
+	int t; scanf("%d", &t);
+	while(t--) {
+	    int n, b, tmp; scanf("%d %d ", &n, &b);
+	    while(n--) {
+	        scanf("%d", &tmp);
+	        if(b >= tmp) { printf("1"); b-= tmp; }
+	        else printf("0");
+	    }
+	    printf("\n");
+	}
+	return 0;
+}
+
+// 
+#include<stdio.h>
+
+int main() {
+	char s[20];
+	scanf("%[^\n]", s);
+	printf("%s", s);
+	return -1;
+}
+
+  I/P : Sai Teja
+  O/P : Sai Teja
