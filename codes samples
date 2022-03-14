@@ -1,4 +1,4 @@
-// 
+// 1st
 #include <stdio.h>
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
 	return 0;
 }
 
-// 
+// 2nd
 #include<stdio.h>
 
 int main() {
@@ -27,3 +27,28 @@ int main() {
 
   I/P : Sai Teja
   O/P : Sai Teja
+
+// 3rd
+#include <stdio.h>
+
+int main(void) {
+	int t; scanf("%d", &t);
+	while(t--) {
+	    char s[100000]; scanf("%s", s);
+	    int n = strlen(s), zeros = 0, ones = 0;
+	    
+	    for(char *c = s; *c != '\0'; c++) {
+	        if(*c == '0')   zeros++;
+	        else            ones++;
+	    }
+	    
+	    int re = (zeros + 1 == n) || (ones + 1 == n);
+	    
+	    if(re)  printf("Yes");
+	    else    printf("No");
+	    
+	    printf("\n");
+	}
+	return 0;
+}
+
