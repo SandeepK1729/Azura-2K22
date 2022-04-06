@@ -1,0 +1,8 @@
+page 1
+  takes registraion details
+  uploads registrants into file
+page 2 
+  login throug registrants
+  open exam page
+page 3 
+  results page
